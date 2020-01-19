@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface ICanMove 
+public interface IPlayerMovement 
 {
     void HorizontalMovement(float input);
     void Jump();

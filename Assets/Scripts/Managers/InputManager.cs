@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Experimental.Input;
 
 public class InputManager : MonoBehaviour
@@ -9,16 +7,16 @@ public class InputManager : MonoBehaviour
 	public GameObject Player;
 
 	private static MainInputActions _inputActions;
-	private static ICanMove _movementComponent;
+	private static IPlayerMovement _movementComponent;
 
 	private void Awake()
 	{
 		_inputActions = inputActions;
-		_movementComponent = Player.GetComponent<ICanMove>();
+		_movementComponent = Player.GetComponent<IPlayerMovement>();
 
 		if (_movementComponent == null)
 		{
-			Debug.LogError("No ICanMove interface set");
+			Debug.LogError("No IPlayerMovement interface set");
 			return;
 		}
 
@@ -28,10 +26,11 @@ public class InputManager : MonoBehaviour
 	{
 		ResetInputEvents();
 	}
-
 	private static void SetUpInputEvents()
 	{
-		_inputActions.MovementBase.HorizontalMovement.performed += HorizontalMovement_performed;
+		_inputActions.MovementBase.HorizontalMovement.started += HorizontalMovement;
+		_inputActions.MovementBase.HorizontalMovement.performed += HorizontalMovement;
+		_inputActions.MovementBase.HorizontalMovement.cancelled += HorizontalMovement;
 		_inputActions.MovementBase.HorizontalMovement.Enable();
 
 		_inputActions.MovementBase.Jump.performed += Jump_performed;
@@ -40,17 +39,20 @@ public class InputManager : MonoBehaviour
 
 	private static void ResetInputEvents()
 	{
-		_inputActions.MovementBase.HorizontalMovement.performed -= HorizontalMovement_performed;
+		_inputActions.MovementBase.HorizontalMovement.started -= HorizontalMovement;
+		_inputActions.MovementBase.HorizontalMovement.performed -= HorizontalMovement;
+		_inputActions.MovementBase.HorizontalMovement.cancelled -= HorizontalMovement;
+
 		_inputActions.MovementBase.Jump.performed -= Jump_performed;
 	}
 
-	private static void Jump_performed(InputAction.CallbackContext obj)
+	private static void HorizontalMovement(InputAction.CallbackContext context)
 	{
-		_movementComponent.Jump();
+		_movementComponent.HorizontalMovement(context.ReadValue<float>());
 	}
 
-	private static void HorizontalMovement_performed(InputAction.CallbackContext obj)
+	private static void Jump_performed(InputAction.CallbackContext context)
 	{
-		_movementComponent.HorizontalMovement(obj.ReadValue<float>());
+		_movementComponent.Jump();
 	}
 }
