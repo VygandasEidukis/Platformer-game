@@ -157,7 +157,6 @@ MonoBehaviour:
   _maxVerticalSpeed: 2000
   _rigidBody: {fileID: 7107637275744262210}
   _maxFallSpeed: 38
-  _canJump: 0
 --- !u!70 &1410787069
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

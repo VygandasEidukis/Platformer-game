@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: ed7fa107192ab8e4f85c8a51998f5aa4
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: running she3eps_GO/running she3eps_GO
+    100002: running she3eps_GO/running she3eps_GO/Set14
+    100004: running she3eps_GO/running she3eps_GO/Set15
+    100006: running she3eps_GO/running she3eps_GO/Set16
+    100008: running she3eps_GO/running she3eps_GO/Set17
+    100010: running she3eps_GO/running she3eps_GO/Set18
+    100012: running she3eps_GO/running she3eps_GO/Set19
+    400000: running she3eps_GO/running she3eps_GO/Transform
+    400002: running she3eps_GO/running she3eps_GO/Set14/Transform
+    400004: running she3eps_GO/running she3eps_GO/Set15/Transform
+    400006: running she3eps_GO/running she3eps_GO/Set16/Transform
+    400008: running she3eps_GO/running she3eps_GO/Set17/Transform
+    400010: running she3eps_GO/running she3eps_GO/Set18/Transform
+    400012: running she3eps_GO/running she3eps_GO/Set19/Transform
+    2800000: running she3eps
+    21200000: running she3eps_GO/running she3eps_GO/Set14/SpriteRenderer
+    21200002: running she3eps_GO/running she3eps_GO/Set15/SpriteRenderer
+    21200004: running she3eps_GO/running she3eps_GO/Set16/SpriteRenderer
+    21200006: running she3eps_GO/running she3eps_GO/Set17/SpriteRenderer
+    21200008: running she3eps_GO/running she3eps_GO/Set18/SpriteRenderer
+    21200010: running she3eps_GO/running she3eps_GO/Set19/SpriteRenderer
+    21300000: 24685bf5d2f91d1478d169bad3bbf8ca
+    21300002: fe946d4140ae2174c97308c6367ef637
+    21300004: ed9dbcea668ce6f4cb7b5b48eab82ecf
+    21300006: d56111ce0e1a2b0419e6e2ccc41e6643
+    21300008: f7595791a00e1ca4cb1cc55450fc7c4f
+    21300010: 21973a7fc49bfcf4a96f1e1ba27eb123
+    100100000: running she3eps_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 256
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Set14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 249
+      height: 253
+    spriteID: 24685bf5d2f91d1478d169bad3bbf8ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2, y: -507}
+  - name: Set15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 265
+      width: 253
+      height: 230
+    spriteID: fe946d4140ae2174c97308c6367ef637
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1022, y: -522}
+  - name: Set16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 747
+      width: 206
+      height: 220
+    spriteID: ed9dbcea668ce6f4cb7b5b48eab82ecf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -805, y: -23}
+  - name: Set17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 261
+      y: 4
+      width: 183
+      height: 249
+    spriteID: d56111ce0e1a2b0419e6e2ccc41e6643
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -304, y: -768}
+  - name: Set18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 265
+      y: 265
+      width: 176
+      height: 229
+    spriteID: f7595791a00e1ca4cb1cc55450fc7c4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -60, y: -503}
+  - name: Set19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 503
+      width: 193
+      height: 236
+    spriteID: 21973a7fc49bfcf4a96f1e1ba27eb123
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -29, y: -265}
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 1024
+  documentSize: {x: 1280, y: 1536}
+  textureActualWidth: 512
+  textureActualHeight: 1024
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Set12
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+  - name: Set14
+    spriteName: Set14
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 24685bf5d2f91d1478d169bad3bbf8ca
+    layerID: 8
+    mosaicPosition: {x: 4, y: 4}
+  - name: Set15
+    spriteName: Set15
+    isGroup: 0
+    parentIndex: 0
+    spriteID: fe946d4140ae2174c97308c6367ef637
+    layerID: 7
+    mosaicPosition: {x: 4, y: 265}
+  - name: Set16
+    spriteName: Set16
+    isGroup: 0
+    parentIndex: 0
+    spriteID: ed9dbcea668ce6f4cb7b5b48eab82ecf
+    layerID: 6
+    mosaicPosition: {x: 4, y: 747}
+  - name: Set17
+    spriteName: Set17
+    isGroup: 0
+    parentIndex: 0
+    spriteID: d56111ce0e1a2b0419e6e2ccc41e6643
+    layerID: 5
+    mosaicPosition: {x: 261, y: 4}
+  - name: Set18
+    spriteName: Set18
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f7595791a00e1ca4cb1cc55450fc7c4f
+    layerID: 4
+    mosaicPosition: {x: 265, y: 265}
+  - name: Set19
+    spriteName: Set19
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 21973a7fc49bfcf4a96f1e1ba27eb123
+    layerID: 3
+    mosaicPosition: {x: 4, y: 503}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0
+  textureAssetName: running she3eps
+  prefabAssetName: running she3eps_GO
